@@ -12,7 +12,7 @@ Contact
 Installation (.py | Python)
 ===========================
 *Caution*: 
-> In `v1.0.0`, only the `Source code` option is avilable.
+> In `v1.0.0`, only the `Source code` option is avilable
 
 Environment
 -----------
@@ -24,6 +24,9 @@ Check your environement before using the below options to access the code:
 * [SciPy](https://www.scipy.org/)
 * [scikit-learn](https://scikit-learn.org/stable/)
 * [PyTorch](https://pytorch.org/)
+
+*Note*: 
+> No package version conflict deteced at this point
 
 Source code
 -----------
