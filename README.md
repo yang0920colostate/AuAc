@@ -13,14 +13,14 @@ Citation & Contacts
 
 Models
 ======
-- Inputs:
-   - qc:
-   - Nc:
-   - qr:
-   - Nr:
-- Outputs: 
-   - Pau:
-   - Pac:
+- Inputs: (in order)
+   - `qc`: cloud droplet liquid water content in `g/m3`
+   - `Nc`: cloud droplet number concentration in `/cm3`
+   - `qr`: drizzle drop liquid watar content in `g/m3`
+   - `Nr`: drizzle drop number concentration in `/cm3`
+- Outputs: (in order)
+   - `Pau`: autoconversion rate in `g/cm3/s`
+   - `Pac`: accretion rate in `g/cm3/s`
 
 1. `Initiation model`: 
     - Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent conditions (i.e., `qr` & `Nr` are both zero)
