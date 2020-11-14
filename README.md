@@ -11,11 +11,13 @@ Contact
 
 Installation (.py | Python)
 ===========================
-Make sure that python is available in your operational system.
-In `v1.0.0`, only the `Source code` option is avilable.
+**Caution**: 
+> In `v1.0.0`, only the `Source code` option is avilable.
 
 Environment
 -----------
+*`Programming language`
+
 
 Source code
 -----------
@@ -37,8 +39,12 @@ For any
 Performance
 ===========
 
-Testing dataset (template)
---------------------------
+Examples
+========
+
+1. ....
+-----------------------
+
 
 Autoconversion rate
 -------------------
