@@ -49,6 +49,7 @@ Release note
 
 Reference
 =========
+Some useful pages: 
 
 1. Github
   * [Hello World](https://guides.github.com/activities/hello-world/)
