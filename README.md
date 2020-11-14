@@ -15,7 +15,7 @@ Models
 ======
 
 1. `Initiation model`: 
-* Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent (i.e., qr & Nr are both zero) conditions
+   * Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent (i.e., qr & Nr are both zero) conditions
 
 2. `Standard model`:
 
