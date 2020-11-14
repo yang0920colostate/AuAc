@@ -9,7 +9,7 @@ Citation & Contacts
 * Citation: ??? 
 
 * [Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
-* C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source codes or pacakge
+* C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source codes
 
 Models
 ======
