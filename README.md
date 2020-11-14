@@ -47,7 +47,7 @@ This package comprises **3** parts:
 Installation (from scratch)
 ===========================
 
-- Step 1: make sure that the following packages are installed in your `Python3` environment: after the `-->` is the command for `Anaconda` envirnonement
+- Step 1: make sure that the following packages are installed in your `Python3` environment: 
 
    - `Numpy`: 
       > conda install -c anaconda numpy
