@@ -18,7 +18,7 @@ Environment
 -----------
 Check your environement before using the below options to access the code:
 
-1. Programming language: `Python3` [Sunsetting Python 2](https://www.python.org/doc/sunset-python-2/#:~:text=We%20have%20decided%20that%20January,as%20soon%20as%20you%20can.)
+1. Programming language: `Python3` ([sunsetting Python 2](https://www.python.org/doc/sunset-python-2/#:~:text=We%20have%20decided%20that%20January,as%20soon%20as%20you%20can.))
 2. Python packages: 
 * [Numpy](https://numpy.org/)
 * [SciPy](https://www.scipy.org/)
