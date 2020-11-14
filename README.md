@@ -13,7 +13,14 @@ Citation & Contacts
 
 Installation from scratch
 =========================
-In this package, there are three components
+- In this package, there are three components:
+
+* In this Github repository:
+1. `Chiu_AuAc.py`: the main source code 
+2. Two example data files: `Data_for_Reduced.mat` and `Data_for_Standard.mat`
+
+* In the Google drive folder:
+3. `pkl.zip`: 
 
 
 1. Download Anaconda
