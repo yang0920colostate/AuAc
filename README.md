@@ -3,7 +3,6 @@
 
 Please read [Chiu et al., 2020]() for more information.
 
-Hello?????
 Contact
 =======
 
