@@ -26,7 +26,7 @@ Check your environement before using the below options to access the code:
 * [PyTorch](https://pytorch.org/)
 
 *Note*: 
-> No package version conflict deteced at this point
+> No package version conflict deteced at this point (i.e., no specific version required at this point), but please do report if you encounter one
 
 Source code
 -----------
