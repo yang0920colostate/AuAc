@@ -1,10 +1,12 @@
 # Chiu_AuAc
-"A warm rain parameterization using aircraft observation and Machine Learning technique"
+"A warm rain parameterization using aircraft observation and Machine Learning techniques"
 
 Please read [Chiu et al., 2020]() for more information.
 
-Contact
-=======
+Citation & Contacts
+===================
+
+*Citation: 
 
 * [Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
 * C.Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source codes or pacakge
