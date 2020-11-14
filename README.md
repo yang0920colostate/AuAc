@@ -44,8 +44,8 @@ This package comprises **3** parts:
    
    3. `pkl.zip`: the weights and biases for the Artificial Neural Network (ANN), and the coefficients for scaling the input and output data
 
-Installation from scratch
-=========================
+Installation (from scratch)
+===========================
 
 - Step 1: make sure that the following packages are installed in your `Python3` environment: after the `-->` is the command for `Anaconda` envirnonement
 
