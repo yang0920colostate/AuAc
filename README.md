@@ -3,6 +3,6 @@
 
 Please read [(Chiu et al., 2020); with a hyperlink] for more details on how the warm rain processes was parameterized.
 
-Intruction:
+**Instruction**:
 
-Release note: 
+**Release note**: 
