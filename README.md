@@ -66,6 +66,14 @@ Installation from scratch
 
 ```python
 import Chiu_AuAc 
+#
 from scipy.io import loadmat
-
+Data_Test=loadmat('Data_for_Reduced.mat');
+Data_Test=Data_Test['Testing']; 
+Pred=Chiu_AuAc.Reduced(Data_Test);
+#
+Data_Test = loadmat('Data_for_Standard.mat');
+Data_Test = Data_Test['Testing']; 
+#
+Pred=Chiu_AuAc.Standard(Data_Test);
 ```
