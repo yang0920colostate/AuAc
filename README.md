@@ -37,11 +37,13 @@ About this package
 This package composed **3** parts.
 
 * In this Github repository:
-1. `Chiu_AuAc.py`: the main source code 
-2. Two example data files: `Data_for_Initiation.mat` and `Data_for_Standard.mat`
+
+   1. `Chiu_AuAc.py`: the main source code 
+   2. Two example data files: `Data_for_Initiation.mat` and `Data_for_Standard.mat`
 
 * In the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
-3. `pkl.zip`: the weights and biases for the Artificial Neural Network (ANN), and the coefficients for scaling the input data
+   
+   3. `pkl.zip`: the weights and biases for the Artificial Neural Network (ANN), and the coefficients for scaling the input data
 
 Installation from scratch
 =========================
@@ -62,7 +64,7 @@ Installation from scratch
    - `Standard_Coef.pkl`
    - `Standard.pkl`
 
-- Step 3: an exmaple code
+- Step 3: an exmaple code using the model to make predictions
 
 ```python
 # Load in the necessary libaries
