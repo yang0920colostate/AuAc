@@ -33,7 +33,7 @@ Description
 
 About this package
 ==================
-This package composed **3** parts.
+This package comprises **3** parts:
 
 * In this Github repository:
 
@@ -51,7 +51,7 @@ Installation from scratch
 
    - `Numpy`
    - `scikit-learn`
-   - `Pytorch`
+   - [Pytorch](https://pytorch.org/)
    - `pickle`
    - (optional) `SciPy`: for running the below example codes
 
