@@ -66,8 +66,8 @@ coming soon...
 Release version and note
 ========================
 
-* `v1.0.0`: 
-* `v1.0.1`:
+* `v1.0.0`: released on 11/24/2020 --> first release
+* `v2.0.0`: coming soon --> 
 
 Reference
 =========
