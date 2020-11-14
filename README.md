@@ -26,6 +26,9 @@ Anaconda (conda)
 ----------------
 coming soon...
 
+Installation (.f90 |Fortran 90)
+===============================
+
 Performance
 ===========
 
