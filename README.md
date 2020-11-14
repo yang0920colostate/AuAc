@@ -50,21 +50,23 @@ Installation from scratch
 - Step 1: make sure that the following packages are installed in your `Python3` environment: after the `-->` is the command for `Anaconda` envirnonement
 
    - `Numpy`: 
-      >> conda install -c anaconda numpy
+      > conda install -c anaconda numpy
       
    - `scikit-learn`: 
-      >> conda install -c anaconda scikit-learn
+      > conda install -c anaconda scikit-learn
       
    - [Pytorch](https://pytorch.org/): please check out the link to see the corresponding commmands for different operational system (MacOS vs. Windows)
    
-   - `pickle`
-   - (optional) `SciPy`: for running the below example codes' --> conda install -c anaconda scipy
+   - `pickle`: this is the default
+   
+   - (optional) `SciPy`: for running the below example codes' 
+      > conda install -c anaconda scipy
 
 - Step 2: put all the necessary files (**5** in total) in the working directories, you should have:
    
    - `Chiu_AuAc.py`
-   - `Reduced_Coef.pkl`
-   - `Reduced.pkl`
+   - `Initiation_Coef.pkl`
+   - `Initiation.pkl`
    - `Standard_Coef.pkl`
    - `Standard.pkl`
 
