@@ -13,12 +13,12 @@ Citation & Contacts
 
 Models
 ======
-- Inputs: (in order)
+- **Inputs**: (*in order*)
    - `qc`: cloud droplet liquid water content in `g/m3`
    - `Nc`: cloud droplet number concentration in `/cm3`
    - `qr`: drizzle drop liquid watar content in `g/m3`
    - `Nr`: drizzle drop number concentration in `/cm3`
-- Outputs: (in order)
+- **Outputs**: (*in order*)
    - `Pau`: autoconversion rate in `g/cm3/s`
    - `Pac`: accretion rate in `g/cm3/s`
 
