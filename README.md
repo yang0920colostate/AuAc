@@ -80,14 +80,14 @@ Installation from scratch
    # Use the initiaion model to make prediction
    Data_Test=loadmat('Data_for_Reduced.mat');
    Data_Test=Data_Test['Testing']; 
-   Pred=Chiu_AuAc.Initiation(Data_Test);
+   Prediction=Chiu_AuAc.Initiation(Data_Test);
 
    # Use the standard model to make prediction
    Data_Test = loadmat('Data_for_Standard.mat');
    Data_Test = Data_Test['Testing']; 
-   Pred=Chiu_AuAc.Standard(Data_Test);
+   Prediction=Chiu_AuAc.Standard(Data_Test);
    ```
 
 - Notes: 
 
-   - The format of the input data should be `ndarray `
+   - The format of the input data should be `ndarray` (click [here](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) to learn more about what is `ndarray`)
