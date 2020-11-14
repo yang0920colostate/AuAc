@@ -13,9 +13,17 @@ Citation & Contacts
 
 Models
 ======
+- Inputs:
+   - qc:
+   - Nc:
+   - qr:
+   - Nr:
+- Outputs: 
+   - Pau:
+   - Pac:
 
 1. `Initiation model`: 
-    * Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent (i.e., qr & Nr are both zero) conditions
+    - Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent conditions (i.e., `qr` & `Nr` are both zero)
 
 2. `Standard model`:
 
