@@ -48,7 +48,7 @@ This package composed **3** parts.
 Installation from scratch
 =========================
 
--Step 1: make sure that the following packages are installed in your `Python3` environment:
+- Step 1: make sure that the following packages are installed in your `Python3` environment:
 
    - `Numpy`
    - `scikit-learn`
@@ -66,21 +66,21 @@ Installation from scratch
 
 - Step 3: an exmaple code using the model to make predictions
 
-```python
-# Load in the necessary libaries
-import Chiu_AuAc 
-from scipy.io import loadmat
+   ```python
+   # Load in the necessary libaries
+   import Chiu_AuAc 
+   from scipy.io import loadmat
 
-# Use the initiaion model to make prediction
-Data_Test=loadmat('Data_for_Reduced.mat');
-Data_Test=Data_Test['Testing']; 
-Pred=Chiu_AuAc.Reduced(Data_Test);
+   # Use the initiaion model to make prediction
+   Data_Test=loadmat('Data_for_Reduced.mat');
+   Data_Test=Data_Test['Testing']; 
+   Pred=Chiu_AuAc.Reduced(Data_Test);
 
-# Use the standard model to make prediction
-Data_Test = loadmat('Data_for_Standard.mat');
-Data_Test = Data_Test['Testing']; 
-Pred=Chiu_AuAc.Standard(Data_Test);
-```
+   # Use the standard model to make prediction
+   Data_Test = loadmat('Data_for_Standard.mat');
+   Data_Test = Data_Test['Testing']; 
+   Pred=Chiu_AuAc.Standard(Data_Test);
+   ```
 
 - Notes: 
 
