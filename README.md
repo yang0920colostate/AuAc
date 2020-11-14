@@ -62,7 +62,7 @@ Installation from scratch
    - (optional) `SciPy`: for running the below example codes' 
       > conda install -c anaconda scipy
 
-- Step 2: put all the necessary files (**5** in total) in the working directories, you should have:
+- Step 2: put all the necessary files (**5** in total) in the working directory; you should have:
    
    - `Chiu_AuAc.py`
    - `Initiation_Coef.pkl`
