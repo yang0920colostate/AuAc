@@ -5,8 +5,7 @@ Please read [Chiu et al., 2020]() for more information
 
 Citation & Contacts
 ===================
-
-* Citation: ??? 
+Citation: ???
 
 * [Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
 * C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source codes
