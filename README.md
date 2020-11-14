@@ -9,24 +9,26 @@ Citation & Contacts
 *Citation: 
 
 * [Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
-* C.Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source codes or pacakge
+* C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source codes or pacakge
 
 Models
 ======
-- **Inputs**: (*in order*)
+
+- **Inputs**: 
    - `qc`: cloud droplet liquid water content in `g/m3`
    - `Nc`: cloud droplet number concentration in `/cm3`
    - `qr`: drizzle drop liquid watar content in `g/m3`
    - `Nr`: drizzle drop number concentration in `/cm3`
-- **Outputs**: (*in order*)
+   
+- **Outputs**: 
    - `Pau`: autoconversion rate in `g/cm3/s`
    - `Pac`: accretion rate in `g/cm3/s`
 
 1. `Initiation model`: 
-    - Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent conditions (i.e., `qr` & `Nr` are both zero)
+   - Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent conditions (i.e., `qr` & `Nr` are both zero)
 
 2. `Standard model`:
-
+   - Uses four ibputs `(qc, Nc, qr, Nr)` for predicting `Pau` and `Pac` jointly in drizzling conditions
 
 Installation from scratch
 =========================
