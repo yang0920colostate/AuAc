@@ -25,10 +25,10 @@ Description
 
 - **Models**:
 
-   1. `Initiation model`: 
+   1. `Initiation()`: 
       - Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent conditions (i.e., `qr` & `Nr` are both zero)
 
-   2. `Standard model`:
+   2. `Standard()`:
       - Uses four inputs `(qc, Nc, qr, Nr)` for predicting `Pau` and `Pac` jointly in drizzling conditions
 
 About this package
@@ -42,18 +42,23 @@ This package comprises **3** parts:
 
 * In the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
    
-   3. `pkl.zip`: the weights and biases for the Artificial Neural Network (ANN), and the coefficients for scaling the input data
+   3. `pkl.zip`: the weights and biases for the Artificial Neural Network (ANN), and the coefficients for scaling the input and output data
 
 Installation from scratch
 =========================
 
-- Step 1: make sure that the following packages are installed in your `Python3` environment:
+- Step 1: make sure that the following packages are installed in your `Python3` environment: after the `-->` is the command for `Anaconda` envirnonement
 
-   - `Numpy`
-   - `scikit-learn`
-   - [Pytorch](https://pytorch.org/)
+   - `Numpy`: 
+      >> conda install -c anaconda numpy
+      
+   - `scikit-learn`: 
+      >> conda install -c anaconda scikit-learn
+      
+   - [Pytorch](https://pytorch.org/): please check out the link to see the corresponding commmands for different operational system (MacOS vs. Windows)
+   
    - `pickle`
-   - (optional) `SciPy`: for running the below example codes
+   - (optional) `SciPy`: for running the below example codes' --> conda install -c anaconda scipy
 
 - Step 2: put all the necessary files (**5** in total) in the working directories, you should have:
    
@@ -73,7 +78,7 @@ Installation from scratch
    # Use the initiaion model to make prediction
    Data_Test=loadmat('Data_for_Reduced.mat');
    Data_Test=Data_Test['Testing']; 
-   Pred=Chiu_AuAc.Reduced(Data_Test);
+   Pred=Chiu_AuAc.Initiation(Data_Test);
 
    # Use the standard model to make prediction
    Data_Test = loadmat('Data_for_Standard.mat');
