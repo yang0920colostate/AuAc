@@ -67,7 +67,8 @@ Release version and note
 ========================
 
 * `v1.0.0`: released on 11/24/2020 --> first release
-* `v2.0.0`: coming soon --> 
+* `v2.0.0`: coming soon --> a Keras version of the model
+* `v3.0.0`: coming soon --> a Fortran version of the model
 
 Reference
 =========
