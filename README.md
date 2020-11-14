@@ -55,7 +55,7 @@ Installation (from scratch)
      
    - [Pytorch](https://pytorch.org/): click the link to see the corresponding commmands for different operational system (MacOS vs. Windows)
    
-   - `pickle`: this is part of the `Python3` standard library
+   - `pickle`: this is part of the `Python3` standard library (i.e., you don't have to worry about it)
    
    - (optional) `SciPy`: for running the example codes below
 
