@@ -8,7 +8,7 @@ Citation & Contacts
 Citation: ???
 
 * [Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
-* C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source codes
+* C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source code
 
 Description
 ===========
@@ -26,10 +26,10 @@ Description
 - **Models**:
 
    1. `Initiation()`: 
-      - Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent conditions (i.e., `qr` & `Nr` are both zero)
+      - Use two inputs `(qc, Nc)` to predict `Pau` in drizzle-absent conditions (i.e., `qr` & `Nr` are both zero)
 
    2. `Standard()`:
-      - Uses four inputs `(qc, Nc, qr, Nr)` for predicting `Pau` and `Pac` jointly in drizzling conditions
+      - Use four inputs `(qc, Nc, qr, Nr)` to predict `Pau` and `Pac` jointly in drizzling conditions
 
 About this package
 ==================
@@ -47,20 +47,17 @@ This package comprises **3** parts:
 Installation (from scratch)
 ===========================
 
-- Step 1: make sure that the following packages are installed in your `Python3` environment: 
+- Step 1: make sure that the following packages are installed in your `Python3` environment:
 
-   - `Numpy`: 
-      > conda install -c anaconda numpy
-      
-   - `scikit-learn`: 
-      > conda install -c anaconda scikit-learn
-      
+   - `Numpy`
+  
+   - `scikit-learn`
+     
    - [Pytorch](https://pytorch.org/): click the link to see the corresponding commmands for different operational system (MacOS vs. Windows)
    
    - `pickle`: this is part of the `Python3` standard library
    
    - (optional) `SciPy`: for running the example codes below' 
-      > conda install -c anaconda scipy
 
 - Step 2: put all the necessary files (**5** in total) in the working directory; you should have:
    
@@ -70,7 +67,7 @@ Installation (from scratch)
    - `Standard_Coef.pkl`
    - `Standard.pkl`
 
-- Step 3: an exmaple code using the model to make predictions
+- Step 3: an exmaple code showing how to use the models to make predictions
 
    ```python
    # Load in the necessary libaries
