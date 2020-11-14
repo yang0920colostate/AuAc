@@ -11,7 +11,7 @@ Contact
 
 Installation (.py | Python)
 ===========================
-**Caution**: 
+*Caution*: 
 > In `v1.0.0`, only the `Source code` option is avilable.
 
 Environment
