@@ -11,16 +11,25 @@ Citation & Contacts
 * [Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
 * C.Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source codes or pacakge
 
+Models
+======
+
+1. `Initiation model`: 
+* Uses two inputs `(qc, Nc)` for predicting `Pau` in drizzle-absent (i.e., qr & Nr are both zero) conditions
+
+2. `Standard model`:
+
+
 Installation from scratch
 =========================
-- In this package, there are three components:
+In this package, there are three components:
 
 * In this Github repository:
 1. `Chiu_AuAc.py`: the main source code 
 2. Two example data files: `Data_for_Reduced.mat` and `Data_for_Standard.mat`
 
 * In the Google drive folder:
-3. `pkl.zip`: 
+3. `pkl.zip`: the weights and biases for the Artificial Neural Network (ANN), and 
 
 
 1. Download Anaconda
