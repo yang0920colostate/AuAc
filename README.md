@@ -11,7 +11,7 @@ Contact
 
 Installation (.py | Python)
 ===========================
-There are 
+In `v1.0.0`, only the `Source code` option is avilable.
 
 Source code
 -----------
@@ -55,7 +55,7 @@ Some useful pages:
   * [Hello World](https://guides.github.com/activities/hello-world/)
   * [Basic writing and formatting syntax](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax#links)
   * [Licensing a repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository)
-  * [Choose an open source license(https://choosealicense.com/)
+  * [Choose an open source license](https://choosealicense.com/)
   * [Setting guidelines for repository contributors](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/setting-guidelines-for-repository-contributors)
   * [Adding a code of conduct to your project](https://docs.github.com/en/free-pro-team@latest/github/building-a-strong-community/adding-a-code-of-conduct-to-your-project)
   * []()
