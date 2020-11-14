@@ -42,7 +42,7 @@ This package comprises **3** parts:
 
 * In the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
    
-   3. `pkl.zip`: the weights and biases for the Artificial Neural Network (ANN), and the coefficients for scaling the input and output data
+   3. `pkl.zip`: the weights and biases for the Artificial Neural Network (ANN), and the coefficients for scaling the inputs and outputs data
 
 Installation (from scratch)
 ===========================
@@ -57,7 +57,7 @@ Installation (from scratch)
    
    - `pickle`: this is part of the `Python3` standard library
    
-   - (optional) `SciPy`: for running the example codes below' 
+   - (optional) `SciPy`: for running the example codes below
 
 - Step 2: put all the necessary files (**5** in total) in the working directory; you should have:
    
