@@ -63,8 +63,8 @@ Accretion rate
 --------------
 coming soon...
 
-Release note
-============
+Release version and note
+========================
 
 * `v1.0.0`: 
 * `v1.0.1`:
