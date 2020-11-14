@@ -55,11 +55,11 @@ Installation (from scratch)
    - `scikit-learn`: 
       > conda install -c anaconda scikit-learn
       
-   - [Pytorch](https://pytorch.org/): please check out the link to see the corresponding commmands for different operational system (MacOS vs. Windows)
+   - [Pytorch](https://pytorch.org/): click the link to see the corresponding commmands for different operational system (MacOS vs. Windows)
    
-   - `pickle`: this is the default
+   - `pickle`: this is part of the `Python3` standard library
    
-   - (optional) `SciPy`: for running the below example codes' 
+   - (optional) `SciPy`: for running the example codes below' 
       > conda install -c anaconda scipy
 
 - Step 2: put all the necessary files (**5** in total) in the working directory; you should have:
