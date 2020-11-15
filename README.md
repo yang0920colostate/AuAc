@@ -104,7 +104,8 @@ Release version and note
 * `v1.3.0': coming soon --> from module to a package
 * `v1.4.0': coming soon --> automatically download the neede packages
 * `v2.0.0`: coming soon --> a Keras version of the model
-* `v3.0.0`: coming soon --> a Fortran version of the model
+* `v3.0.0`: coming soon --> a [Fortran](https://arxiv.org/pdf/2004.10652v2.pdf) version of the model
+
 
 Reference
 =========
