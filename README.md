@@ -3,6 +3,11 @@
 
 Please read [Chiu et al., 2020]() for more information
 
+Release note
+============
+
+- `v1.0.0` (11/?/2020): 
+
 Citation & Contacts
 ===================
 Citation: ???
