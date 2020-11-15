@@ -5,17 +5,17 @@ Please read [Chiu et al., 2020]() for more information.
 
 Release note
 ============
-This is a relatively new method, and we would appreciate any feedback from the users.
+**This is a relatively new method, and we would appreciate any feedback from the users**.
 
 - `v1.0.0` (11/?/2020): a `Python` version of the package is released
-- `v2.0.0` (expeceted on 12/25/2020): `Keras-Tensoflow` version will be provided
+- `v2.0.0` (expeceted on 12/25/2020): `Keras-Tensoflow` as the backend (another option)
 - `v3.0.0` (expected on 01/01/2021): a `Fortran` version of the pacakge will be published
 
 Citation & Contacts
 ===================
 Citation: ???
 
-* [Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
+* [Dr. Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
 * C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source code
 
 Description
