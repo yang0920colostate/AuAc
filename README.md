@@ -1,13 +1,15 @@
 # Chiu_AuAc
 "A warm rain parameterization using aircraft observation and Machine Learning techniques"
 
-Please read [Chiu et al., 2020]() for more information
+Please read [Chiu et al., 2020]() for more information.
 
 Release note
 ============
+This is a relatively new method, and we would appreciate any feedback from the users.
 
 - `v1.0.0` (11/?/2020): a `Python` version of the package is released
-- `v2.0.0` (expected on 01/01/2021): a `Fortran` version of the pacakge will be published
+- `v2.0.0` (expeceted on 12/25/2020): `Keras-Tensoflow` version will be provided
+- `v3.0.0` (expected on 01/01/2021): a `Fortran` version of the pacakge will be published
 
 Citation & Contacts
 ===================
