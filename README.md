@@ -7,7 +7,7 @@ Release note
 ============
 
 - `v1.0.0` (11/?/2020): a `Python` version of the package is released
-- `v2.0.0` (expected on 01/01/2021): a `Fortran` version of the pacakge
+- `v2.0.0` (expected on 01/01/2021): a `Fortran` version of the pacakge will be published
 
 Citation & Contacts
 ===================
