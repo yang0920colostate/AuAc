@@ -6,7 +6,8 @@ Please read [Chiu et al., 2020]() for more information
 Release note
 ============
 
-- `v1.0.0` (11/?/2020): 
+- `v1.0.0` (11/?/2020): a `Python` version of the package is released
+- `v2.0.0` (expected on 01/01/2021): a `Fortran` version of the pacakge
 
 Citation & Contacts
 ===================
