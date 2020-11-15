@@ -93,4 +93,4 @@ Installation (from scratch)
 - Notes: 
 
    - The format of the input data should be `ndarray` (click [here](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) to learn more about what is `ndarray`)
-   - You should make no more than 10,000 samples at once (memory issue)
+   - You should use no more than 10,000 sample to make predictions at once (memory issue)
