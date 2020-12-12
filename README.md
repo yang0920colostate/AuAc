@@ -8,7 +8,7 @@ Release note
 **This is a relatively new method, and we would appreciate any feedback from the users**.
 A `Fortran` version of the code would be soon released in January, 2021
 
-- `v1.0.0` (11/?/2020): a `Python` version of the package is released
+- `v1.0.0` (12/11/2020): a `Python` version of the package is released
 - `v2.0.0` (expeceted on 12/25/2020): `Keras-Tensoflow` as the backend (another option)
 - `v3.0.0` (expected on 01/01/2021): a `Fortran` version of the pacakge will be published
 
@@ -16,8 +16,8 @@ Citation & Contacts
 ===================
 Citation: ???
 
-* [Dr. Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
-* C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source code
+* PI: [Dr. Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
+* Co-I: C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source code
 
 Description
 ===========
@@ -56,6 +56,8 @@ This package comprises **3** parts:
 Installation (from scratch)
 ===========================
 
+- Step 0: for `v1.0.0`, this package can run on `Windows`, `MacOS`, and `Linux` with a appropriate `python` package manager installed in the operation system.
+
 - Step 1: make sure that the following packages are installed in your `Python3` environment:
 
    - `Numpy`
@@ -66,8 +68,8 @@ Installation (from scratch)
    
    - `pickle`: this is part of the `Python3` standard library (i.e., you don't have to worry about it)
    
-   - (optional) `SciPy`: for running the example codes below
-
+   - (optional; for running the example codes below) `SciPy`
+   
 - Step 2: put all the necessary files (**5** in total) in the working directory; you should have:
    
    - `Chiu_AuAc.py`
@@ -95,6 +97,6 @@ Installation (from scratch)
    ```
 
 - Notes: 
-
+   - You do not need to have `CUDA` installed in your operational system to use the pacakge. 
    - The format of the input data should be `ndarray` (click [here](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) to learn more about what is `ndarray`)
    - You should use no more than 10,000 sample to make predictions at once (memory issue)
