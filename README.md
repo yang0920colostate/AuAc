@@ -68,11 +68,11 @@ Installation (from scratch)
    
       using Anaconda3 as the `python` package manager:
       
-      <pre>
+      ```
       - (Windows) >> conda install pytorch torchvision torchaudio cpuonly -c pytorch 
       -   (MacOS) >> conda install pytorch torchvision torchaudio -c pytorch 
       -   (Linux) >> conda install pytorch torchvision torchaudio cpuonly -c pytorch 
-      <pre>
+      ```
       
    - `pickle`: this is part of the `Python3` standard library (i.e., you don't have to worry about it)
    
