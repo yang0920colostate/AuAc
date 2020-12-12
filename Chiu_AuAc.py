@@ -52,7 +52,7 @@ def Initiation(Testing_dataset):
     hid_size_node=1024;
     activation=torch.nn.LeakyReLU();
     trained_model=eval("Model10()");
-    trained_model.load_state_dict(torch.load('Initiation.pkl'));
+    trained_model.load_state_dict(torch.load('Initiation.pkl',torch.device('cpu')));
     # Sec5: making predictions
     x_data_Test=torch.from_numpy(xy_load_Test_log10_std.astype('float32'));
     y_pred_Test=trained_model(Variable(x_data_Test));
@@ -115,7 +115,7 @@ def Standard(Testing_dataset):
     hid_size_node=1024;
     activation=torch.nn.LeakyReLU();
     trained_model=eval("Model10()");
-    trained_model.load_state_dict(torch.load('Standard.pkl'));
+    trained_model.load_state_dict(torch.load('Standard.pkl',torch.device('cpu')));
     # Sec5: making predictions
     x_data_Test=torch.from_numpy(xy_load_Test_log10_std.astype('float32'));
     y_pred_Test=trained_model(Variable(x_data_Test));
