@@ -105,6 +105,6 @@ Installation (from scratch)
    ```
 
 - Notes: 
-   - You do not need to have `CUDA` installed in your operational system to use the pacakge. 
+   - You do not need to have `CUDA` installed in your operational system to use the pacakg
    - The format of the input data should be `ndarray` (click [here](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) to learn more about what is `ndarray`)
    - You should use no more than 10,000 sample to make predictions at once (memory issue)
