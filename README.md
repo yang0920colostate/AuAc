@@ -1,7 +1,7 @@
 # Chiu_AuAc
 "A warm rain parameterization using **in-situ aircraft observation** and **Machine Learning** techniques"
 
-Please read [Chiu et al., 2020]() for more information.
+Please read [Chiu et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091236) for more information.
 
 Release note
 ============
