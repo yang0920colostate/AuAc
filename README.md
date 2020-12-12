@@ -84,7 +84,7 @@ Installation (from scratch)
    from scipy.io import loadmat
 
    # Use the initiaion model to make predictions ("Pau" only)
-   Data_Test = loadmat('Data_for_Reduced.mat');
+   Data_Test = loadmat('Data_for_Initiation.mat');
    Data_Test = Data_Test['Testing']; 
    Prediction = Chiu_AuAc.Initiation(Data_Test);
 
