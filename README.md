@@ -67,11 +67,11 @@ Installation (from scratch)
    - [Pytorch](https://pytorch.org/): click the link to see the corresponding commmands for different operational system (Windows/MacOS/Linux)
    
       using Anaconda3 as the `python` package manager:
-      
-      - (Windows) >> conda install pytorch torchvision torchaudio cpuonly -c pytorch <br />
-      - &nbsp(MacOS) >> conda install pytorch torchvision torchaudio -c pytorch <br />
-      - &nbsp(Linux) >> conda install pytorch torchvision torchaudio cpuonly -c pytorch <br />
-   
+      <pre>
+      - (Windows) >> conda install pytorch torchvision torchaudio cpuonly -c pytorch 
+      -   (MacOS) >> conda install pytorch torchvision torchaudio -c pytorch 
+      -   (Linux) >> conda install pytorch torchvision torchaudio cpuonly -c pytorch 
+      <pre>
    - `pickle`: this is part of the `Python3` standard library (i.e., you don't have to worry about it)
    
    - (optional; for running the example codes below) `SciPy`
