@@ -23,9 +23,9 @@ Descriptions of Machine-Learning models
 =======================================
   
 - **Inputs**: 
-   - `qc`: cloud droplet liquid water content in `g/m3`
+   - `qc`: cloud water content in `g/m3`
    - `Nc`: cloud droplet number concentration in `/cm3`
-   - `qr`: drizzle drop liquid watar content in `g/m3`
+   - `qr`: drizzle watar content in `g/m3`
    - `Nr`: drizzle drop number concentration in `/cm3`
    
 - **Outputs**: 
@@ -35,7 +35,7 @@ Descriptions of Machine-Learning models
 - **Models**:
 
    1. `Initiation()`: 
-      - Use two inputs `(qc, Nc)` to predict `Pau` in drizzle-absent conditions (i.e., `qr` & `Nr` are both zero)
+      - Use two inputs `(qc, Nc)` to predict `Pau` in non-drizzling conditions (i.e., `qr` & `Nr` are both zero)
 
    2. `Standard()`:
       - Use four inputs `(qc, Nc, qr, Nr)` to predict both `Pau` and `Pac` in drizzling conditions
