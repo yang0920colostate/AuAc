@@ -1,5 +1,5 @@
 # Chiu_AuAc
-"A new parameterization for autoconversion (Au) and accretion (Ac) rates using **in-situ aircraft observations** and **Machine Learning** techniques"
+"A new parameterization for autoconversion rate and accretion rate using **in-situ aircraft observations** and **Machine Learning** techniques"
 
 Please read [Chiu et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091236) for more information.
 
