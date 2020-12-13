@@ -1,12 +1,12 @@
 # Chiu_AuAc
-"A warm rain parameterization using **in-situ aircraft observation** and **Machine Learning** techniques"
+"A new parameterization for autoconversion (Au) and accretion (Ac) rates using **in-situ aircraft observations** and **Machine Learning** techniques"
 
 Please read [Chiu et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091236) for more information.
 
 Release note
 ============
-**This is a relatively new method, and we would appreciate any feedback from the users**.
-A `Fortran` version of the code would be soon released in January, 2021
+**We welcome any feedback and comments.**
+A `Fortran` version of the code is planned to be released in January, 2021
 
 - `v1.0.0` (12/11/2020): a `Python` version of the package is released
 - `v2.0.0` (expeceted on 12/25/2020): `Keras-Tensoflow` as the backend (another option)
@@ -14,14 +14,14 @@ A `Fortran` version of the code would be soon released in January, 2021
 
 Citation & Contacts
 ===================
-Citation: ???
+Citation: Chiu, J. C., C. Kevin Yang, Peter Jan van Leeuwen, Graham Feingold, Robert Wood, Yann Blanchard, Fan Mei, and Jian Wang, 2020: Observational constraints on warm cloud microphysical processes using machine learning and optimization techniques. Geophys. Res. Lett. doi:10.1029/2020GL091236
 
-* PI: [Dr. Christine Chiu](https://www.atmos.colostate.edu/people/faculty/chiu/): `Christine.Chiu@colostate.edu`
+* PI: [Dr. Christine Chiu](https://cloud-radiation.atmos.colostate.edu/): `Christine.Chiu@colostate.edu`
 * Co-I: C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source code
 
-Description
-===========
-
+Descriptions of Maching-Learning models
+=======================================
+  
 - **Inputs**: 
    - `qc`: cloud droplet liquid water content in `g/m3`
    - `Nc`: cloud droplet number concentration in `/cm3`
@@ -38,20 +38,24 @@ Description
       - Use two inputs `(qc, Nc)` to predict `Pau` in drizzle-absent conditions (i.e., `qr` & `Nr` are both zero)
 
    2. `Standard()`:
-      - Use four inputs `(qc, Nc, qr, Nr)` to predict `Pau` and `Pac` jointly in drizzling conditions
+      - Use four inputs `(qc, Nc, qr, Nr)` to predict both `Pau` and `Pac` in drizzling conditions
 
 About this package
 ==================
 This package comprises **3** parts:
 
-* In this Github repository:
+1. `Chiu_AuAc.py`: 
+   - Purpose: ... (provide more details here)
+   - Available in this Github repository.
 
-   1. `Chiu_AuAc.py`: the main source code 
-   2. Two example data files: `Data_for_Initiation.mat` and `Data_for_Standard.mat`
+2. `ExampleData_for_InitiationModel.mat` and `ExampleData_for_StandardModel.mat`: 
+   - Purpose: As shown in the end, these two example data sets will be input to Chiu_AuAc.py for predicting Pau and Pac; one for the initiation model, and the other for the standard model
+   - Available in this Github repository.
 
-* In the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
-   
-   3. `pkl.zip`: the weights and the biases for the Artificial Neural Network (ANN), and the coefficients for scaling the inputs and outputs data
+3. `pkl.zip`: 
+   - Purpose: The zip file contains 4 python pickle files. 'Initiation.pkl' and 'Standard.pkl' contain the weights and the biases for the Artificial Neural Network (ANN) for the initiation and standard model, respectively. The coefficients for scaling the inputs and outputs data are inlcuded in 'Initiation_Coef.pkl' (for the initiation model) and 'Standard_Coef.pkl' (for the standard model). 
+   - Used in Chiu_AuAc.py
+   - Available in the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
 
 Installation (from scratch)
 ===========================
@@ -82,7 +86,7 @@ Installation (from scratch)
    
    - `Chiu_AuAc.py`
    - `Initiation_Coef.pkl`
-   - `Initiation.pkl`
+   - `Initiation.pkl` 
    - `Standard_Coef.pkl`
    - `Standard.pkl`
 
