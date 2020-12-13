@@ -21,7 +21,8 @@ Citation: Chiu, J. C., C. Kevin Yang, Peter Jan van Leeuwen, Graham Feingold, Ro
 
 Descriptions of Machine-Learning models
 =======================================
-  
+PLEASE PAY ATTENTION TO THE UNITS!!!
+
 - **Inputs**: 
    - `qc`: cloud water content in `g/m3`
    - `Nc`: cloud droplet number concentration in `/cm3`
@@ -44,18 +45,22 @@ About this package
 ==================
 This package comprises **3** parts:
 
-1. `Chiu_AuAc.py`: 
-   - This is a `python` module code. 
-   - Available in this Github repository.
-
-2. `ExampleData_for_Initiation.mat` and `ExampleData_for_Standard.mat`: 
-   - As shown in the end, these two example data sets will be input to Chiu_AuAc.py for predicting Pau and Pac; one for the initiation model, and the other for the standard model
-   - Available in this Github repository.
-
-3. `pkl.zip`: 
+1. `pkl.zip`: 
    - The zip file contains 4 python pickle files. 'Initiation.pkl' and 'Standard.pkl' contain the weights and the biases for the Artificial Neural Network (ANN) for the initiation and standard model, respectively. The coefficients for scaling the inputs and outputs data are inlcuded in 'Initiation_Coef.pkl' (for the initiation model) and 'Standard_Coef.pkl' (for the standard model). 
    - Used in Chiu_AuAc.py
    - Available in the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
+
+2. `Chiu_AuAc.py`: PLEASE DO NOT MODIFY THIS CODE!!!-
+   - This is a `python` module code. 
+   - Available in this Github repository.
+
+3. `Example.py`:
+
+4. `ExampleData_for_Initiation.mat` and `ExampleData_for_Standard.mat`: 
+   - As shown in the end, these two example data sets will be input to Chiu_AuAc.py for predicting Pau and Pac; one for the initiation model, and the other for the standard model
+   - Available in this Github repository.
+
+
 
 Installation (from scratch)
 ===========================
@@ -109,6 +114,6 @@ Installation (from scratch)
    ```
 
 - Notes: 
-   - You do not need to have `CUDA` installed in your operational system to use the pacakg
+   - You do not need to have `CUDA` installed in your operational system to use the pacakge
    - The format of the input data should be `ndarray` (click [here](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) to learn more about what is `ndarray`)
    - You should use no more than 10,000 sample to make predictions at once (memory issue)
