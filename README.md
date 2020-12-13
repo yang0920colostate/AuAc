@@ -48,7 +48,7 @@ This package comprises **3** parts:
    - Purpose: ... (provide more details here)
    - Available in this Github repository.
 
-2. `ExampleData_for_InitiationModel.mat` and `ExampleData_for_StandardModel.mat`: 
+2. `ExampleData_for_Initiation.mat` and `ExampleData_for_Standard.mat`: 
    - Purpose: As shown in the end, these two example data sets will be input to Chiu_AuAc.py for predicting Pau and Pac; one for the initiation model, and the other for the standard model
    - Available in this Github repository.
 
