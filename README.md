@@ -45,7 +45,7 @@ About this package
 This package comprises **3** parts:
 
 1. `Chiu_AuAc.py`: 
-   - Provide more details here for the purpose of this code. 
+   - This is a `python` module code. 
    - Available in this Github repository.
 
 2. `ExampleData_for_Initiation.mat` and `ExampleData_for_Standard.mat`: 
