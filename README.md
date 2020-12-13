@@ -14,7 +14,7 @@ A `Fortran` version of the code is planned to be released in January, 2021
 
 Citation & Contacts
 ===================
-Citation: Chiu, J. C., C. Kevin Yang, Peter Jan van Leeuwen, Graham Feingold, Robert Wood, Yann Blanchard, Fan Mei, and Jian Wang, 2020: Observational constraints on warm cloud microphysical processes using machine learning and optimization techniques. Geophys. Res. Lett. doi:10.1029/2020GL091236
+Citation: Chiu, J. C., C. Kevin Yang, Peter Jan van Leeuwen, Graham Feingold, Robert Wood, Yann Blanchard, Fan Mei, and Jian Wang (2020): Observational constraints on warm cloud microphysical processes using machine learning and optimization techniques. Geophys. Res. Lett. doi:10.1029/2020GL091236
 
 * PI: [Dr. Christine Chiu](https://cloud-radiation.atmos.colostate.edu/): `Christine.Chiu@colostate.edu`
 * Co-I: C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source code
