@@ -19,7 +19,7 @@ Citation: Chiu, J. C., C. Kevin Yang, Peter Jan van Leeuwen, Graham Feingold, Ro
 * PI: [Dr. Christine Chiu](https://cloud-radiation.atmos.colostate.edu/): `Christine.Chiu@colostate.edu`
 * Co-I: C. Kevin Yang: `yang0920@rams.colostate.edu` for any issues related to the source code
 
-Descriptions of Maching-Learning models
+Descriptions of Machine-Learning models
 =======================================
   
 - **Inputs**: 
