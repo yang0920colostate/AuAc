@@ -43,7 +43,7 @@ PLEASE PAY ATTENTION TO THE UNITS!!!
 
 About this package
 ==================
-This package comprises **3** parts:
+This package comprises **4** parts:
 
 1. `pkl.zip`: 
    - The zip file contains 4 python pickle files. 'Initiation.pkl' and 'Standard.pkl' contain the weights and the biases for the Artificial Neural Network (ANN) for the initiation and standard model, respectively. The coefficients for scaling the inputs and outputs data are inlcuded in 'Initiation_Coef.pkl' (for the initiation model) and 'Standard_Coef.pkl' (for the standard model). 
