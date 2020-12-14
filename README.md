@@ -43,7 +43,7 @@ PLEASE PAY ATTENTION TO THE UNITS!!!
 
 About this package
 ==================
-This package comprises **3** parts:
+This package comprises **5** parts:
 
 1. `pkl.zip`: 
    - The zip file contains 4 python pickle files. 'Initiation.pkl' and 'Standard.pkl' contain the weights and the biases for the Artificial Neural Network (ANN) for the initiation and standard model, respectively. The coefficients for scaling the inputs and outputs data are inlcuded in 'Initiation_Coef.pkl' (for the initiation model) and 'Standard_Coef.pkl' (for the standard model). 
@@ -54,9 +54,11 @@ This package comprises **3** parts:
    - This is a `python` module code. 
    - Available in this Github repository.
 
-3. `run_example.py`:
+3. `run_example1.py`:
 
-4. `ExampleData_for_Initiation.mat` and `ExampleData_for_Standard.mat`: 
+4. `run_example2.py`:
+
+5. `ExampleData_for_Initiation.mat` and `ExampleData_for_Standard.mat`: 
    - As shown in the end, these two example data sets will be input to Chiu_AuAc.py for predicting Pau and Pac; one for the initiation model, and the other for the standard model
    - Available in this Github repository.
 
