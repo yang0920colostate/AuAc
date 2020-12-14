@@ -51,8 +51,13 @@ This package comprises **5** parts:
    - Available in the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
 
 2. `Chiu_AuAc.py`: PLEASE DO NOT MODIFY THE CONTENT!!!
-   - This is a `python` module that 
+   - This is a `python` module that contains two functions: `Standard()` and `Initiation`. Each function performs the following tasks:
       
+      - Inititialze the Neural Network (NN) with the trained weights and bias loaded from the .pkl file
+      
+      - Scale the `Input_data` with the scaling information obtained from the training dataset
+      
+      - Make prediction with the Artificial Neural Network (ANN) 
    
    - Available in this Github repository.
 
