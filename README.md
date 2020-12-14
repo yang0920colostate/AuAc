@@ -51,7 +51,7 @@ This package comprises **5** parts:
    - Available in the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
 
 2. `Chiu_AuAc.py`: PLEASE DO NOT MODIFY THIS CODE!!!-
-   - This is a `python` module code. 
+   - This is a `python` module. 
    - Available in this Github repository.
 
 3. `run_example1.py`:
