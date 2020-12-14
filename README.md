@@ -102,15 +102,15 @@ Installation (from scratch)
    import Chiu_AuAc 
    from scipy.io import loadmat
 
-   # Use the initiaion model to make predictions ("Pau" only)
-   Data_Test = loadmat('ExampleData_for_Initiation.mat');
-   Data_Test = Data_Test['Testing']; 
-   Prediction = Chiu_AuAc.Initiation(Data_Test);
-
    # Use the standard model to make predictions ("Pau" and "Pac")
    Data_Test = loadmat('ExampleData_for_Standard.mat');
    Data_Test = Data_Test['Testing']; 
    Prediction = Chiu_AuAc.Standard(Data_Test);
+   
+   # Use the initiaion model to make predictions ("Pau" only)
+   Data_Test = loadmat('ExampleData_for_Initiation.mat');
+   Data_Test = Data_Test['Testing']; 
+   Prediction = Chiu_AuAc.Initiation(Data_Test);
    ```
 
 - Notes: 
