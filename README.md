@@ -60,7 +60,7 @@ This package comprises **5** parts:
 
 4. `run_example2.py`:
 
-5. `ExampleData_for_Initiation.mat` and `ExampleData_for_Standard.mat`: 
+5. `ExampleData_for_Standard.mat` and `ExampleData_for_Initiation.mat` : 
    - As shown in the end, these two example data sets will be input to Chiu_AuAc.py for predicting Pau and Pac; one for the initiation model, and the other for the standard model
    - Available in this Github repository.
 
