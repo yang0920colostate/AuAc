@@ -35,11 +35,11 @@ PLEASE PAY ATTENTION TO THE UNITS!!!
 
 - **Models**:
 
-   1. `Initiation()`: 
-      - Use two inputs `(qc, Nc)` to predict `Pau` in non-drizzling conditions (i.e., `qr` & `Nr` are both zero)
-
-   2. `Standard()`:
+   1. `Standard()`:
       - Use four inputs `(qc, Nc, qr, Nr)` to predict both `Pau` and `Pac` in drizzling conditions
+
+   2. `Initiation()`: 
+      - Use two inputs `(qc, Nc)` to predict `Pau` in non-drizzling conditions (i.e., `qr` & `Nr` are both zero)
 
 About this package
 ==================
