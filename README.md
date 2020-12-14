@@ -90,10 +90,10 @@ Installation (from scratch)
 - Step 2: put all the necessary files (**5** in total) in the working directory; you should have:
    
    - `Chiu_AuAc.py`
-   - `Initiation_Coef.pkl`
-   - `Initiation.pkl` 
    - `Standard_Coef.pkl`
    - `Standard.pkl`
+   - `Initiation_Coef.pkl`
+   - `Initiation.pkl` 
 
 - Step 3: an exmaple code showing how to use the models to make predictions
 
