@@ -3,6 +3,8 @@
 
 Please read [Chiu et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091236) for more information.
 
+This README.md and all the codes can be found in https://github.com/yang0920colostate/AuAc as well, except the training and testing dataset for the machine learning model.
+
 Release note
 ============
 **We welcome any feedback and comments.**
