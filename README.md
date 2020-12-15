@@ -43,7 +43,7 @@ PLEASE PAY ATTENTION TO THE UNITS!!!
 
 About this package
 ==================
-This package comprises **4** parts:
+This package comprises **3** parts:
 
 1. `pkl.zip`: 
    - The zip file contains 4 python pickle files. 'Initiation.pkl' and 'Standard.pkl' contain the weights and the biases for the Artificial Neural Network (ANN) for the initiation and standard model, respectively. The coefficients for scaling the inputs and outputs data are inlcuded in 'Initiation_Coef.pkl' (for the initiation model) and 'Standard_Coef.pkl' (for the standard model). 
@@ -51,26 +51,26 @@ This package comprises **4** parts:
    - Available in the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
 
 2. `Chiu_AuAc.py`: PLEASE DO NOT MODIFY THE CONTENT!!!
-   - This is a `python` module that contains two functions: `Standard()` and `Initiation`. Each function performs the following tasks:
+   - This is a `python` module that contains two functions: `Standard()` and `Initiation()`. Each function performs the following tasks:
       
       - Inititialze the Neural Network (NN) with the trained weights and bias loaded from the .pkl file
       
       - Scale the `Input_data` with the scaling information obtained from the training dataset
       
-      - Make prediction with the Artificial Neural Network (ANN) 
+      - Make predictions with the Artificial Neural Network (ANN) 
    
    - Available in this Github repository.
 
-3. Example scripts:
-
-    `run_example1.py`:
-
-    `run_example2.py`:
-
-4. `ExampleData_for_Standard.mat` and `ExampleData_for_Initiation.mat` : 
+3. `ExampleData_for_Standard.mat` and `ExampleData_for_Initiation.mat` : 
    - As shown in the end, these two example data sets will be input to Chiu_AuAc.py for predicting Pau and Pac; one for the initiation model, and the other for the standard model
    - Available in this Github repository.
+   
+4. Example scripts:
 
+   - `run_example1.py`: demonsrate how to run the "Standard()" or "Initiation()" model  with the "ExampleData_for_Standard.mat" or "ExampleData_for_Initiation" respectively.
+   
+   - `run_example2.py`: demonsrate how to use part of the testing dataset from `Chiu_etal_GRL2020_AuAc.nc` for evaluating the performance of the "Standard()" model. `Chiu_etal_GRL2020_AuAc.nc` can be found in the ARM Archive (with free registration).
+   
 Installation (from scratch)
 ===========================
 
