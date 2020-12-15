@@ -112,7 +112,7 @@ Installation (from scratch)
    - `Initiation_Coef.pkl`
    - `Initiation.pkl` 
    
-   !!!*YOU ARE ALL SET FOR RUNNING THIS MODULE*!!!
+   ***YOU ARE ALL SET FOR RUNNING THIS MODULE***
 
 - Notes: 
    - You do not need to have `CUDA` installed in your operational system to use the pacakge
