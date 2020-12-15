@@ -60,7 +60,7 @@ This package comprises **4** parts:
       
       - Inititialze the Artificial Neural Network (ANN) with the trained weights and bias loaded from the `.pkl` file
       
-      - Scale the `Input_data` with the scaling information obtained from the training dataset
+      - Scale the "Input_data" with the scaling information obtained from the training dataset
       
       - Make predictions with the Artificial Neural Network (ANN) 
    
