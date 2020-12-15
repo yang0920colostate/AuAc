@@ -60,7 +60,7 @@ This package comprises **4** parts:
       
       - Inititialze the Artificial Neural Network (ANN) with the trained weights and bias loaded from the `.pkl` file
       
-      - Scale the "Input_data" with the scaling information obtained from the training dataset
+      - Scale the "Input_Data" with the scaling information obtained from the training dataset
       
       - Make predictions with the Artificial Neural Network (ANN) 
    
@@ -117,6 +117,6 @@ Installation (from scratch)
 
 - Notes: 
    - You do not need to have `CUDA` installed in your operational system to use the pacakge
-   - The format of the input data should be `ndarray` (click [here](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) to learn more about what is `ndarray`)
+   - The format of the "Input_Data" should be `ndarray` (click [here](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) to learn more about what is `ndarray`)
    - You should use no more than 10,000 sample to make predictions at once (memory issue)
    - Our StandardScaler is built from sklearn 0.23.2. If you have another version of sklearn istalled in your python environment, you might get a warning message but it should general cause no harm.
