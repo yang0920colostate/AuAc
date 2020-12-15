@@ -100,9 +100,9 @@ Installation (from scratch)
       
    - `pickle`: this is part of the `Python3` standard library (i.e., you don't have to worry about it)
    
-   - (optional; for `run_example1.py`below ) `SciPy`
+   - (optional; for `run_example1.py`) `SciPy`
    
-   - (optional; for `run_example2.py`below ) `netCDF4`
+   - (optional; for `run_example2.py`) `netCDF4`
    
 - Step 2: put all the necessary files (**5** in total) in the working directory; you should have:
    
@@ -112,7 +112,7 @@ Installation (from scratch)
    - `Initiation_Coef.pkl`
    - `Initiation.pkl` 
    
-   !!!YOU ARE ALL SET FOR RUNNING THIS MODULE!!!
+   !!!*YOU ARE ALL SET FOR RUNNING THIS MODULE*!!!
 
 - Notes: 
    - You do not need to have `CUDA` installed in your operational system to use the pacakge
