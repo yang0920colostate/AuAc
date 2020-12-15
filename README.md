@@ -91,7 +91,7 @@ Installation (from scratch)
      
    - [Pytorch](https://pytorch.org/): click the link to see the corresponding commmands for different operational system (Windows/MacOS/Linux)
    
-      for example: using Anaconda3 as the `python` package manager:
+      for example: using `Anaconda3` as the `python` package manager:
       
       ```
       - (Windows) >> conda install pytorch torchvision torchaudio cpuonly -c pytorch 
