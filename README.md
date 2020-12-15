@@ -118,5 +118,5 @@ Installation (from scratch)
 - Notes: 
    - You do not need to have `CUDA` installed in your operational system to use the pacakge
    - The format of the "Input_Data" should be `ndarray` (click [here](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) to learn more about what is `ndarray`)
-   - You should use no more than 10,000 sample to make predictions at once (memory issue)
-   - Our StandardScaler is built from sklearn 0.23.2. If you have another version of sklearn istalled in your python environment, you might get a warning message but it should general cause no harm.
+   - You should use no more than 10,000 sampleS to make predictions at once (it's likely that you will run out of memory in a typical PC)
+   - Our `StandardScaler` is built from sklearn 0.23.2. If you have another version of the sklearn installed in your `python` environment, you might get a warning message but it should be no harm.
