@@ -7,7 +7,8 @@ This `README.md` and all the codes can be found in https://github.com/yang0920co
 
 Release note
 ============
-**We welcome any feedback and comments.**
+***We welcome any feedback and comments***
+
 A `Fortran` version of the code is planned to be released in January, 2021
 
 - `v1.0.0` (12/11/2020): a `Python` version of the package is released
@@ -53,7 +54,7 @@ This package comprises **4** parts:
    - Used in Chiu_AuAc.py
    - Available in the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
 
-2. `Chiu_AuAc.py`: !!!PLEASE DO NOT MODIFY THE CONTENT!!!
+2. `Chiu_AuAc.py`: ***PLEASE DO NOT MODIFY THE CONTENT***
 
    - This is a `python` module that contains two functions: `Standard()` and `Initiation()`. Each function performs the following tasks:
       
