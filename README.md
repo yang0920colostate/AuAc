@@ -3,7 +3,7 @@
 
 Please read [Chiu et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091236) for more information.
 
-This README.md and all the codes can be found in https://github.com/yang0920colostate/AuAc as well, except the training and testing dataset for the machine learning model.
+This `README.md` and all the codes can be found in https://github.com/yang0920colostate/AuAc as well, except the `training and testing dataset` for the machine learning model.
 
 Release note
 ============
@@ -45,17 +45,19 @@ PLEASE PAY ATTENTION TO THE UNITS!!!
 
 About this package
 ==================
-This package comprises **3** parts:
+This package comprises **4** parts:
 
 1. `pkl.zip`: 
-   - The zip file contains 4 python pickle files. 'Initiation.pkl' and 'Standard.pkl' contain the weights and the biases for the Artificial Neural Network (ANN) for the initiation and standard model, respectively. The coefficients for scaling the inputs and outputs data are inlcuded in 'Initiation_Coef.pkl' (for the initiation model) and 'Standard_Coef.pkl' (for the standard model). 
+
+   - The zip file contains 4 python pickle files. 'Standard.pkl' and 'Initiation.pkl' contain the weights and the biases for the Artificial Neural Network (ANN) for the `Standard()`  and `Initiation()` model, respectively. The coefficients for scaling the inputs and outputs data are inlcuded in 'Standard_Coef.pkl' (for the `Standard()` model) and 'Initiation_Coef.pkl' (for the `Initiation()` model). 
    - Used in Chiu_AuAc.py
    - Available in the [Google drive folder](https://drive.google.com/drive/folders/1YQtwRKVPUH_4ptDDk8yXLBmEpVeNT2lY?usp=sharing):
 
-2. `Chiu_AuAc.py`: PLEASE DO NOT MODIFY THE CONTENT!!!
+2. `Chiu_AuAc.py`: !!!PLEASE DO NOT MODIFY THE CONTENT!!!
+
    - This is a `python` module that contains two functions: `Standard()` and `Initiation()`. Each function performs the following tasks:
       
-      - Inititialze the Neural Network (NN) with the trained weights and bias loaded from the .pkl file
+      - Inititialze the Artificial Neural Network (ANN) with the trained weights and bias loaded from the `.pkl` file
       
       - Scale the `Input_data` with the scaling information obtained from the training dataset
       
@@ -64,14 +66,16 @@ This package comprises **3** parts:
    - Available in this Github repository.
 
 3. `ExampleData_for_Standard.mat` and `ExampleData_for_Initiation.mat` : 
-   - As shown in the end, these two example data sets will be input to Chiu_AuAc.py for predicting Pau and Pac; one for the initiation model, and the other for the standard model
+
+   - These two example datasets will be used in `run_example1.py` for predicting Pau and Pac; one for the `Standard()` model, an the other for the `Initiation()` model
+   
    - Available in this Github repository.
    
 4. Example scripts:
 
-   - `run_example1.py`: demonsrate how to run the "Standard()" or "Initiation()" model  with the "ExampleData_for_Standard.mat" or "ExampleData_for_Initiation" respectively.
+   - `run_example1.py`: demonsrate how to run the `Standard()` or `Initiation()` model  with the `ExampleData_for_Standard.mat` or `ExampleData_for_Initiation` respectively.
    
-   - `run_example2.py`: demonsrate how to use part of the testing dataset from `Chiu_etal_GRL2020_AuAc.nc` for evaluating the performance of the "Standard()" model. `Chiu_etal_GRL2020_AuAc.nc` can be found in the ARM Archive (with free registration).
+   - `run_example2.py`: demonsrate how to use part of the testing dataset from `Chiu_etal_GRL2020_AuAc.nc` for evaluating the performance of the `Standard()` model. `Chiu_etal_GRL2020_AuAc.nc` can be found in the ARM Archive (with free registration).
    
 Installation (from scratch)
 ===========================
@@ -107,24 +111,8 @@ Installation (from scratch)
    - `Standard.pkl`
    - `Initiation_Coef.pkl`
    - `Initiation.pkl` 
-
-- Step 3: an exmaple code showing how to use the models to make predictions
-
-   ```python
-   # Load in the necessary libaries
-   import Chiu_AuAc 
-   from scipy.io import loadmat
-
-   # Use the standard model to make predictions ("Pau" and "Pac")
-   Data_Test = loadmat('ExampleData_for_Standard.mat');
-   Data_Test = Data_Test['Testing']; 
-   Prediction = Chiu_AuAc.Standard(Data_Test);
    
-   # Use the initiaion model to make predictions ("Pau" only)
-   Data_Test = loadmat('ExampleData_for_Initiation.mat');
-   Data_Test = Data_Test['Testing']; 
-   Prediction = Chiu_AuAc.Initiation(Data_Test);
-   ```
+   !!!YOU ARE ALL SET FOR RUNNING THIS MODULE!!!
 
 - Notes: 
    - You do not need to have `CUDA` installed in your operational system to use the pacakge
