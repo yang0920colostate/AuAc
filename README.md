@@ -76,7 +76,7 @@ This package comprises **4** parts:
 
    - `run_example1.py`: demonsrate how to run the `Standard()` or `Initiation()` model  with the `ExampleData_for_Standard.mat` or `ExampleData_for_Initiation` respectively.
    
-   - `run_example2.py`: demonsrate how to use part of the testing dataset from `Chiu_etal_GRL2020_AuAc.nc` for evaluating the performance of the `Standard()` model. `Chiu_etal_GRL2020_AuAc.nc` can be found in the ARM Archive (with free registration).
+   - `run_example2.py`: demonsrate how to use part of the testing dataset from `Chiu_etal_GRL2020_AuAc.nc` for evaluating the performance of the `Standard()` model. `Chiu_etal_GRL2020_AuAc.nc` can be found in the ARM Archive (with **free registration**).
    
 Installation (from scratch)
 ===========================
