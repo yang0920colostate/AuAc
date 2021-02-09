@@ -12,8 +12,8 @@ Release note
 A `Fortran` version of the code is planned to be released in January, 2021
 
 - `v1.0.0` (12/11/2020): a `Python` version of the package is released
-- `v2.0.0` (expeceted on 12/25/2020): `Keras-Tensoflow` as the backend (another option)
-- `v3.0.0` (expected on 01/01/2021): a `Fortran` version of the pacakge will be published
+- `v2.0.0` (expeceted on 03/01/2021): `Keras-Tensoflow` as the backend (another option)
+- `v3.0.0` (expected on 03/01/2021): a `Fortran` version of the pacakge will be published
 
 Citation & Contacts
 ===================
