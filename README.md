@@ -1,7 +1,7 @@
 # Chiu_AuAc
 "A new parameterization for autoconversion rate and accretion rate using **in-situ aircraft observations** and **Machine Learning** techniques"
 
-Please read [Chiu et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091236) for more information.
+Please read [Chiu et al., 2021](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020GL091236) for more information.
 
 This `README.md` and all the codes can be found in https://github.com/yang0920colostate/AuAc as well, except the `training and testing dataset` for the machine learning model.
 
