@@ -98,7 +98,7 @@ Installation (from scratch)
    - `Chiu_AuAc_Standard_2022_model.hdf5`
    - `Scaler.mat`
    - `Chiu_AuAc_Standard_2022_module.py`
-   - `ExampleDatad.mat`
+   - `ExampleData.mat`
    - `run_example.py`
   
    ***YOU ARE ALL SET FOR RUNNING THIS MODULE***
