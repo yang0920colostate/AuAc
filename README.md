@@ -74,7 +74,7 @@ This package comprises **5** parts:
 
 5. `run_example.py`:
 
-   - An example script that demonsrates how to run the `Chiu_AuAc_Standard_2022()`model  with the `ExampleData.mat`.
+   - An example script that demonsrates how to run the `Chiu_AuAc_Standard_2022()` model  with the `ExampleData.mat`.
 
    - Available in this Github repository.
 
