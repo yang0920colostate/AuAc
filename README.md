@@ -8,10 +8,10 @@ Release note
 ============
 ***We welcome any feedback and comments***
 
-A `Fortran` version of the code is planned to be released in January, 2023
+A `Fortran` version of the code will be released in the near future.
 
 - `v1.0.0` (09/09/2022): a `Python` version using `Keras-Tensoflow` backend of the package is released
-- `v2.0.0` (expected on 01/01/2023): a `Fortran` version of the pacakge will be published
+- `v2.0.0` (near future): a `Fortran` version of the pacakge will be published
 
 Citation & Contacts
 ===================
